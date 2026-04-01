@@ -20,50 +20,57 @@ python src/main.py
 
 ## Team Workflow (Agile Approach)
 
-We are using a simple Agile workflow adapted for beginners.
+We are using a simple Agile workflow adapted for beginner Python developers.
 
-### Roles & Responsibilities
+### Team Members and Responsibilities
 - Toby Yan → User Creation (Factory Pattern)
 - Ahmiere Davis → Document Notifications (Observer Pattern)
 - Nelson Gomez → Action Logging (Decorator)
-- Cooper Zuideveld → Log Reading (Generator) + Metadata Fetching (Async)
+- Cooper Zuideveld → Log Reading (Generator)
+- Task 5: Metadata Fetching (Async/Await) → We will solve this together as a team
 
 ### How We Work
 - Each member works on their assigned feature in a separate branch
-- We focus on writing simple, readable, and working code first
-- Once a feature is complete, it is tested and then merged into main
+- We focus on simple, readable, and working code first
+- Once a feature is complete, it should be tested locally before being merged
+- We will collaborate as a group on the async task so everyone can understand it
 
 ### Development Steps
 1. Understand the requirement
 2. Write simple pseudocode
-3. Implement a basic working version
+3. Build a basic working version
 4. Test locally
-5. Commit and push
-6. Merge into main
+5. Commit and push to your branch
+6. Merge only when the feature is ready
 
 ### Git Workflow
-- Create a branch: `feature/<your-feature>`
-- Example: `feature/user-factory`
-- Use clear commit messages:
-  - `add user factory`
-  - `implement observer notifications`
+Each member should work in their own branch.
+ 
+Branch names:
+- `feature/user-factory`
+- `feature/observer-notifications`
+- `feature/action-logging`
+- `feature/log-reader`
+- `feature/logs-and-async`
 
 ### Communication
-- We use Microsoft Teams for all communication
-- Questions should be asked early (no blocking)
-- If someone is stuck, they should ask the team
+- We will use Microsoft Teams as our main communication channel
+- If something is unclear, ask early
+- Since we are all learning, questions are welcome
+- We will support each other and solve problems together
 
 ### Team Rules
-- Keep code simple (we are learning)
-- Ask for help early
-- Respect everyone’s progress
-- Focus on completing a working solution first
+- Keep the code simple
+- Do not overcomplicate the solution
+- Ask for help early if blocked
+- Respect everyone’s learning process
+- Focus on getting a working version first
 
 ### Integration Plan
-At the end, we will connect all components into one flow:
-- Create user
-- Upload document
-- Trigger notifications
-- Log actions
-- Read logs
-- Fetch metadata
+At the end, we will connect all components into one full workflow:
+1. Create user
+2. Upload document
+3. Trigger notifications
+4. Log the action
+5. Read logs line by line
+6. Fetch metadata from an external API concurrently
